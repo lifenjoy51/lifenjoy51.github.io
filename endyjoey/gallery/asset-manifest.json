@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/endyjoey/gallery/static/css/main.ff721e37.css",
-    "main.js": "/endyjoey/gallery/static/js/main.9aa9a40a.js",
+    "main.js": "/endyjoey/gallery/static/js/main.9e291cae.js",
     "static/js/787.d7e7aaf3.chunk.js": "/endyjoey/gallery/static/js/787.d7e7aaf3.chunk.js",
     "index.html": "/endyjoey/gallery/index.html",
     "main.ff721e37.css.map": "/endyjoey/gallery/static/css/main.ff721e37.css.map",
-    "main.9aa9a40a.js.map": "/endyjoey/gallery/static/js/main.9aa9a40a.js.map",
+    "main.9e291cae.js.map": "/endyjoey/gallery/static/js/main.9e291cae.js.map",
     "787.d7e7aaf3.chunk.js.map": "/endyjoey/gallery/static/js/787.d7e7aaf3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ff721e37.css",
-    "static/js/main.9aa9a40a.js"
+    "static/js/main.9e291cae.js"
   ]
 }
