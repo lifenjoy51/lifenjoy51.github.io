@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: ivory;
+}
+
+@import "~react-image-gallery/styles/css/image-gallery.css";
+
+@media screen and (max-width: 1024px) {
+  .image-gallery-content .image-gallery-slide .image-gallery-image {
+    max-height: 100vh
+  }
+}
+
+.image-gallery-slide .image-gallery-image {
+  height: 100vh;
+  width: 80vw;
+}
+
+.image-gallery-swipe {
+  max-width: 82vw;
+  margin: auto;
+}
+
+.image-gallery-thumbnails-wrapper {
+  position: absolute;
+  bottom: 0;
+  width: 80vw;
+  margin: 0 10vw;
+}
+
+.image-gallery-thumbnail .image-gallery-thumbnail-image {
+  width: initial;
+}
+
+.popup {
+  background-color: white;
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  z-index: 999;
+}
+
+.x-svg{
+  height: 48px;
+  width: 48px;
+}
+
+.x-btn{
+    right: 0;
+    color: #fff;
+    margin: 8px;
+    appearance: none;
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+    outline: none;
+    position: absolute;
+    z-index: 4;
+    filter: drop-shadow(0 2px 2px #1a1a1a);
+}
+
+.popup_img{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
